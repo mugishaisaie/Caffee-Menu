@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/caffeBeans.png);
+    padding: 20px;
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 41px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.established{
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+h1,h2,p{
+    text-align: center;
+}
+
+.menu{
+    width: 80%;
+    background-color: rgb(173, 131, 74);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
+
+hr{
+    height: 3px;
+    background-color: brown;
+    border-color: brown;
+    margin: 10px;
+}
+.bottom-line{
+    margin-top: 25px;
+}
+
+h1, h2{
+    font-family: Impact, serif;
+}
+
+.item p{
+    display: inline-block;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    font-size: 19px;
+}
+
+.flavor, .dessert{
+    text-align: left;
+    width: 75%;
+}
+
+.price{
+    text-align: right;
+    width: 23%;
+}
+
+/* footer */
+
+footer{
+    font-size: 14px;
+}
+
+.address{
+    margin-bottom: 5px;
+}
